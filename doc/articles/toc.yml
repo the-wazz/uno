@@ -38,6 +38,8 @@
           href: splash-screen.md
         - name: How to consume a web API
           href: howto-consume-webservices.md
+        - name: How to use Uno.Material
+          href: guides/uno-material-walkthrough.md
         - name: How to integrate SignalR
           href: signalr.md
         - name: How to use MSAL for Azure Authentication
