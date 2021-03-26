@@ -39,7 +39,12 @@
         - name: How to consume a web API
           href: howto-consume-webservices.md
         - name: How to use Uno.Material
-          href: guides/uno-material-walkthrough.md
+          topicHref: guides/uno-material-walkthrough.md
+          items:
+          - name: Overview
+            href: guides/uno-material-walkthrough.md
+          - name: Controls extra setup
+            href: guides/uno-material-controls-extra-setup.md
         - name: How to integrate SignalR
           href: signalr.md
         - name: How to use MSAL for Azure Authentication
@@ -49,7 +54,7 @@
     - name: Tutorials
       items:
         - name: Silverlight migration
-          topicHref: silverlight-migration-landing.md 
+          topicHref: silverlight-migration-landing.md
           items:
             - name: Overview
               href: silverlight-migration-landing.md
