@@ -39,7 +39,8 @@ namespace Uno.UI.Extensions
 			return element switch
 			{
 				TextBlock textBlock => $" Text=\"{textBlock.Text}\" Foreground={textBlock.Foreground}",
-				ScrollViewer scrollViewer => $" Extent={scrollViewer.ExtentWidth}x{scrollViewer.ExtentHeight} Offset={scrollViewer.ScrollOffsets}",
+				ScrollViewer scrollViewer => $" Extent={scrollViewer.ExtentWidth}x{scrollViewer.ExtentHeight}",
+				ScrollContentPresenter scrollContentPresenter => $" Extent={scrollContentPresenter.ExtentWidth}x{scrollContentPresenter.ExtentHeight} Offset={scrollContentPresenter.ScrollOffsets}",
 				Viewbox viewbox => $" Stretch={viewbox.Stretch}",
 				_ => ""
 			};
