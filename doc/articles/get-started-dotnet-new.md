@@ -41,6 +41,11 @@ Once the application is created, make sure that the following code is present in
 </Application.Resources>
 ```
 
+More articles on WinUI 3:
+
+ * [WinUI 3, UWP, and Uno Platform.](uwp-vs-winui3.md)
+ * [Updating from UWP to WinUI 3.](updating-to-winui3.md)
+
 ## Uno Platform Blank library
 
 This template can be used to create a blank library. With this type of library, Skia and WebAssembly do not need to built separately, but cannot be differentiated.
@@ -106,6 +111,12 @@ To use it:
 1. Open the **Nuget Package manager** for the Wasm project and update the `Uno.Xamarin.Forms.Platform` project to the latest **stable** package 
 1. Run the app using **Ctrl+F5** (without the Visual Studio debugger), and you�re good to go!
 
+### Uninstalling the templates
+
+Using a command line or terminal, run the following command:
+
+`dotnet new -u Uno.ProjectTemplates.Dotnet`
+
 ### Getting Help
 
-If you need help with Uno Platform please visit our [Discord](https://wwww.platform.uno/discord) - #uno-platform channel or [StackOverflow](https://stackoverflow.com/questions/tagged/uno-platform) where our engineering team and community will be able to help you. 
+If you need help with Uno Platform please visit our [Discord](https://www.platform.uno/discord) - #uno-platform channel or [StackOverflow](https://stackoverflow.com/questions/tagged/uno-platform) where our engineering team and community will be able to help you. 

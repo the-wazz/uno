@@ -3612,7 +3612,7 @@
 			<Member
 				fullName="System.String Windows.UI.Xaml.Controls.DatePickerFlyout::DismissButtonPartName"
 				reason="Method not in UWP contract" />
-		</Fields>
+        </Fields>
 		<Properties>
 			<Member
 				fullName="Windows.UI.Xaml.Controls.Primitives.FlyoutPlacementMode Windows.UI.Xaml.Controls.DatePicker::FlyoutPlacement()"
@@ -3636,6 +3636,41 @@
 				fullName="Windows.UI.Xaml.Controls.ScrollMode Windows.UI.Xaml.Controls.ScrollContentPresenter::VerticalScrollMode()"
 				reason="Not part of the UWP API" />
 		</Properties>
+	</IgnoreSet>
+	<IgnoreSet baseVersion="3.6.6">
+		<Types>
+		</Types>
+
+		<Events>
+		</Events>
+
+		<Fields>
+		</Fields>
+
+		<Properties>
+		</Properties>
+
+		<Methods>
+			<Member
+				fullName="System.Void Windows.UI.Xaml.DependencyObjectStore.SetResourceBinding(Windows.UI.Xaml.DependencyProperty dependencyProperty, System.Object resourceKey, System.Boolean isTheme, System.Object context)"
+				reason="No longer used method that shouldn't be called from user code" />
+      <Member
+				fullName="System.Void Windows.ApplicationModel.Contacts.ContactBatch..ctor()"
+				reason="Method not in UWP contract" />
+		</Methods>
+	</IgnoreSet>
+	<IgnoreSet baseVersion="3.6.6">
+	  <Types>
+	  </Types>
+	  <Methods>
+		<Member
+		  fullName="System.Void Windows.UI.Xaml.DependencyObjectStore.SetResourceBinding(Windows.UI.Xaml.DependencyProperty dependencyProperty, System.Object resourceKey, System.Boolean isTheme, System.Object context)"
+		  reason="No longer used method that shouldn't be called from user code" />
+	  </Methods>
+	  <Fields>
+	  </Fields>
+	  <Properties>
+	  </Properties>
 	</IgnoreSet>
 	<!--
 	Supported nodes (please keep at the bottom of this file):

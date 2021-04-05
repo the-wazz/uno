@@ -2,7 +2,7 @@
   topicHref: intro.md
 - name: Get started
   items:
-    - name: Overview
+    - name: Select an environment
       href: get-started.md
     - name: Get Started on Visual Studio
       href: get-started-vs.md
@@ -36,6 +36,8 @@
           href: uno-community-toolkit.md
         - name: How to add a splash screen
           href: splash-screen.md
+        - name: How to use native Frame navigation
+          href: guides\native-frame-nav-tutorial.md
         - name: How to consume a web API
           href: howto-consume-webservices.md
         - name: How to use Uno.Material
@@ -45,8 +47,14 @@
             href: guides/uno-material-walkthrough.md
           - name: Controls extra setup
             href: guides/uno-material-controls-extra-setup.md
+        - name: How to localize text resources
+          href: guides/localization.md
+        - name: How to change app language at runtime
+          href: guides/hotswap-app-language.md
         - name: How to integrate SignalR
           href: signalr.md
+        - name: How to update StatusBar color based on dark/light theme
+          href: guides/status-bar-theme-color.md
         - name: How to use MSAL for Azure Authentication
           href: interop/MSAL.md
         - name: How to authenticate with OpenID Connect
@@ -161,6 +169,8 @@
           href: features\fluent-styles.md
         - name: Fonts
           href: features/custom-fonts.md
+        - name: Native frame navigation
+          href: features\native-frame-nav.md
         - name: Orientation
           href: features/orientation.md
         - name: Routed Events
@@ -263,6 +273,8 @@
           href: features\windows-system-userprofile.md
         - name: Windows.Storage
           href: features\windows-storage.md
+        - name: Windows.Storage.Pickers
+          href: features\windows-storage-pickers.md
         - name: Windows.UI.ViewManagement
           href: features\windows-ui-viewmanagement.md
     - name: Uno features
@@ -281,6 +293,8 @@
           href: uno-fluent-assets.md
         - name: Lottie animations
           href: features/Lottie.md
+        - name: Working with cookies
+          href: features/working-with-cookies.md
     - name: Core functionality
       items:
         - name: Logging
